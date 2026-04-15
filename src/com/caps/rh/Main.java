@@ -23,7 +23,7 @@ public class Main {
 
         System.out.println("Aplicando aumento de 10% para o salário da funcionária");
         funcionaria.aplicarAumento(10);
-        System.out.println("")
+        System.out.println("");
         System.out.println("Novo salário da funcionária: R$ " + funcionaria.getSalario());
         }
     }
