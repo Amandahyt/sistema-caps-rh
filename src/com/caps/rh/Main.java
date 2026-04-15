@@ -20,7 +20,8 @@ public class Main {
         System.out.println("Salário: R$" + gerente.getSalario());
         System.out.println("Bônus anual: R$" + gerente.getBonusAnual());
         System.out.println("Remuneração completa: R$ " + gerente.calcularRemuneracaoTotal());
-
+        
+        System.out.println("");
         System.out.println("Aplicando aumento de 10% para o salário da funcionária");
         funcionaria.aplicarAumento(10);
         System.out.println("");
