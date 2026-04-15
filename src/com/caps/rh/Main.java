@@ -8,7 +8,7 @@ public class Main {
         Funcionario funcionaria = new Funcionario("Amanda Rodrigues", "042-544-340-43", 1800);
         Gerente gerente = new Gerente("Dwight Schrute", "920-043-043-32", 5000.0, 2500);
 
-        System.out.println("FUNCIONARIA");
+        System.out.println("FUNCIONÁRIA");
         System.out.println("Nome: " + funcionaria.getNome());
         System.out.println("CPF: " + funcionaria.getCpf());
         System.out.println("Salário: R$" + funcionaria.getSalario());
